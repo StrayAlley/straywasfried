@@ -1,1 +1,2 @@
 # straywasfried
+javascript:function gcloak() { var link = document.querySelector("link[rel*='icon']") || document.createElement('link');link.type = 'image/x-icon';link.rel = 'shortcut icon';link.href = 'https://app.schoology.com/images/schoology_thumbnail.png';document.title = 'Home | Schoology';console.log(document.title);document.getElementsByTagName('head')[0].appendChild(link) };gcloak();setInterval(gcloak, 1000);
